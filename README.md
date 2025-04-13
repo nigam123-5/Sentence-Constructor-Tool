@@ -1,12 +1,44 @@
-# React + Vite
+# Sentence Constructor Tool ( Live Link - https://sentence-constructor.netlify.app/ )
+Welcome to the Sentence Constructor Tool repository! This project is designed to help users practice sentence construction by selecting the correct words to complete sentences.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+Sentence Construction: Users are presented with incomplete sentences and can choose from a list of words to fill in the blanks.
 
-Currently, two official plugins are available:
+Timer: A timer runs as users select words, adding a competitive element to improve speed and accuracy.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Feedback: After completing the sentence, users will receive feedback about their selection and whether it was correct or not.
 
-## Expanding the ESLint configuration
+State Management: The tool tracks the current progress and user's input, providing a seamless experience.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive UI: Designed with Tailwind CSS to ensure the application is fully responsive across devices.
+
+# Tech Stack
+Frontend: React (with Vite for fast development)
+
+Styling: Tailwind CSS
+
+State Management: React State
+
+Optionally, the project may also integrate shadcn/ui for enhanced user interface components.
+
+# Installation
+
+1. Clone the repository:
+git clone https://github.com/nigam123-5/Sentence-Constructor-Tool.git
+
+2. Install dependencies:
+cd Sentence-Constructor-Tool
+npm install
+Visit http://localhost:3000 to start using the tool.
+
+Usage
+Open the app in your browser.
+
+Read the incomplete sentence and select the correct words to complete it.
+
+The timer will start when you begin selecting words.
+
+Once you finish, you’ll receive feedback on your choices.
+
+Contributing
+Feel free to fork the repository, make changes, and submit pull requests. We appreciate any contributions that help improve this tool!
